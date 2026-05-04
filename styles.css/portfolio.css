@@ -24,8 +24,10 @@
     border-radius: 5px;
     font-size: 20px;
     font-weight: bold;
+    align-items: center;
     color: white;
     cursor: pointer;
+    
 }
 
 .section-heading {
@@ -46,11 +48,15 @@
     color: #757575;
 }
 
+.text-center {
+    text-align: center;
+}
+
 /*main style*/
 header{
     background-color: #FFF8F3;
     background: url("../images/developer.png") , url("../images/header_bg.png"), #FFF8F3;
-    background-position: top left,bottom right;
+    background-position: 23px 38px,bottom right;
     background-repeat: no-repeat;
     padding-top: 50px;
 
@@ -58,7 +64,7 @@ header{
 
 nav{width: 71%;
     max-width: 1140px;
-    border: 1px solid red;
+    border: none;
     margin: 0px auto;
     display: flex;
     justify-content: space-between;
@@ -80,7 +86,7 @@ nav .menu a {
 
 
 #banner {
-    border: 1px solid red;
+    /*border: 1px solid red;*/
     margin: 47px 38px 0px 230px;
     display: flex;
     justify-content: space-between;
@@ -212,4 +218,46 @@ nav .menu a {
 
     color: #757575;
     
+}
+
+footer {
+    background-color: #FFF8F3;
+    padding: 130px 0;
+    margin-top: 130px;
+
+}
+
+footer .footer-container {
+    width: 71%;
+    max-width: 1140px;
+    margin: 0px auto;
+    display: flex;
+    gap: 116px;
+}
+
+.footer-container h2 {
+    color: #181818;
+    font-size: 35px;
+    margin-bottom: 20px;
+}
+.footer-container .social {
+    max-width: 562px;
+}
+.footer-container .social p{
+    color: #474747;
+    line-height: 28px;
+    font-size: 16px;
+    margin-bottom: 30px;
+}
+.footer-container .icons a {
+    margin-right: 24px;
+}
+
+.footer-container form input[type="text"],
+.footer-container form textarea {
+    width: 461px;
+    padding: 18px 31px;
+    margin-bottom: 24px;
+    border: none;
+    color: #757575;
 }
